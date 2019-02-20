@@ -1,0 +1,43 @@
+{
+  "name": "pwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "element-ui": "^2.5.4",
+    "register-service-worker": "^1.5.2",
+    "vue": "^2.5.22",
+    "vue-web-cam": "^1.4.3",
+    "vue-webcam-new": "^1.0.20"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "dns": "^0.2.2",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "internet-available": "^1.0.0",
+    "is-online": "^8.0.0",
+    "manage-wifi": "^1.0.1",
+    "net": "^1.0.2",
+    "node-wifi": "^2.0.5",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.21",
+    "vue-webcam": "^2.0.4",
+    "wifi-control": "^2.0.1"
+  }
+}
